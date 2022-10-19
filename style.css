@@ -38,3 +38,15 @@ footer p {
     font-size: 36px;
 }
 /* wordt niet zwart want "class" overtreft waterval*/
+nav ul li a  {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+nav ul li a:hover {
+    background: white;
+    color: black;
+    font-size: 44px;
+    text-decoration: underline
+}
