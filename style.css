@@ -1,14 +1,15 @@
 /* Algemene CSS*/
-
-/* Typografie en specifieke opmaak*/
+* {
+    font-family: Verdana, Arial, sans-serif;
+}
 
 body {
     background-color: paleturquoise;
 }
-
+/* Typografie en specifieke opmaak*/
 h1 {
     color: dodgerblue;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
 }
 p  {
     color: darkolivegreen;
@@ -18,3 +19,22 @@ h1 {
     color: mediumpurple;
 }
 /* nu is h1 paars want css werkt met watervalsysteem, het onderste blijft*/
+#tekstkleur-rood {
+    color: red;
+}
+.tekstkleur-geel {
+    color: yellow;
+}
+/* class gebruikt "." */
+h1.tekstkleur-geel {
+    color: yellowgreen;
+}
+.tekst-vet {
+    font-weight: 700;
+}
+
+footer p {
+    color: black;
+    font-size: 36px;
+}
+/* wordt niet zwart want "class" overtreft waterval*/
