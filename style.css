@@ -1,18 +1,20 @@
 /* Algemene CSS*/
 * {
-    font-family: Verdana, Arial, sans-serif;
+    font-family: 'Oswald', sans-serif; /* font van google */
 }
 
 body {
-    background-color: paleturquoise;
+    background-color: #5249d1;
 }
 /* Typografie en specifieke opmaak*/
 h1 {
-    color: dodgerblue;
+    color: #1E90FF;
     font-family: "Comic Sans MS", sans-serif;
 }
 p  {
-    color: darkolivegreen;
+    color: #d06de8;
+    line-height: 30px;
+    text-align: center;
 }
 
 h1 {
@@ -20,7 +22,7 @@ h1 {
 }
 /* nu is h1 paars want css werkt met watervalsysteem, het onderste blijft*/
 #tekstkleur-rood {
-    color: red;
+    color: #FF000091;
 }
 .tekstkleur-geel {
     color: yellow;
@@ -40,7 +42,7 @@ footer p {
 /* wordt niet zwart want "class" overtreft waterval*/
 nav ul li a  {
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.56);
     text-decoration: none;
     font-size: 24px;
 }
