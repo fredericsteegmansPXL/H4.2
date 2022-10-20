@@ -2,7 +2,7 @@
 
 /*specifieke css*/
 main{
-    background-color: darksalmon;
+    background-color: #59ff70;
     /*padding-top: 25px;
     padding-right: 30px;
     padding-bottom: 70px;
@@ -15,8 +15,8 @@ main{
    /* border-top-width: 10px;
     border-top-color: darkgreen;
     border-top-style: dotted;*/
-    border-top: 10px darkgreen dotted;
-    border-bottom: 20px blue solid;
+    border-top: 10px #f196f8 dotted;
+    border-bottom: 20px #F196F8 solid;
     border-radius: 50px; /*rondingen*/
 
     width: 800px;
