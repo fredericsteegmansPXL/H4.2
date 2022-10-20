@@ -3,4 +3,23 @@
 /*specifieke css*/
 main{
     background-color: darksalmon;
+    /*padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    padding-left: 50px;*/
+
+    padding: 25px 30px 75px 50px; /*is hetzelfde, met klok mee kijken*/
+
+    /*margin: 100px; wit ruimte rond kader*/
+
+   /* border-top-width: 10px;
+    border-top-color: darkgreen;
+    border-top-style: dotted;*/
+    border-top: 10px darkgreen dotted;
+    border-bottom: 20px blue solid;
+    border-radius: 50px; /*rondingen*/
+
+    width: 800px;
+    margin: 100px auto; /*zorgt ervoor dat blok in het midden blijft als venster vervormt, heeeeeeel belangrijk*/
+
 }
