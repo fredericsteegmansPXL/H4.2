@@ -1,8 +1,24 @@
 /*algemene css*/
 
 /*specifieke css*/
+body{
+    background-image: url("assets/download.jpeg");
+    background-attachement: fixed;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+nav ul li a:hover {
+    color: green;
+}
+
 main{
-    background-color: #59ff70;
+    background-color: #FFF;
     /*padding-top: 25px;
     padding-right: 30px;
     padding-bottom: 70px;
@@ -23,6 +39,14 @@ main{
     margin: 100px auto; /*zorgt ervoor dat blok in het midden blijft als venster vervormt, heeeeeeel belangrijk*/
 
 }
-nav ul li a:hover {
-    color: green;
+main ul li {
+    list-style-type: circle; /*worden open bolletjes*/
+}
+main ol {
+    background-color: darkgray;
+}
+main ol li {
+    list-style-type: upper-roman;
+    background-color: dimgrey;
+    list-style-position: inside;
 }
