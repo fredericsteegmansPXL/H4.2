@@ -1,0 +1,21 @@
+/*algemeen*/
+
+* {
+    font-family: Verdana, sans-serif;
+}
+body {
+    background-image: url("assets/achtergrond.jpg");
+}
+
+
+/*specifiek*/
+h1 {
+    font-size: 44px;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    color: #051D62;
+    font-weight: 700;
+}
