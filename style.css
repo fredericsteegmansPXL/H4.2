@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: #5249d1;
+    background-color: #C745096B;
 }
 /* Typografie en specifieke opmaak*/
 h1 {
-    color: #1E90FF;
-    font-family: "Comic Sans MS", sans-serif;
+    color: #c74509;
+    font-family: barlow, sans-serif;
 }
 p  {
     color: #d06de8;
