@@ -23,3 +23,6 @@ main{
     margin: 100px auto; /*zorgt ervoor dat blok in het midden blijft als venster vervormt, heeeeeeel belangrijk*/
 
 }
+nav ul li a:hover {
+    color: green;
+}
