@@ -1,0 +1,26 @@
+/* algemeen*/
+
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background: #F1EBD9;
+}
+
+
+
+/*specifiek*/
+
+header{
+    width: 1200px;
+}
+main {
+    width: 1200px
+}
+section {
+    background-color: #DCC066;
+    padding: 30px;
+    margin: 10px 80px 10px 80px;
+    border: solid #740001 5px
+}
